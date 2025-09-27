@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>フリーランスエンジニア - ポートフォリオ</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">ARCA STACK</div>
+            <button class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">ホーム</a></li>
+                <li><a href="#about" class="nav-link">自己紹介</a></li>
+                <li><a href="#services" class="nav-link">専門領域</a></li>
+                <li><a href="#skills" class="nav-link">スキル</a></li>
+                <li><a href="#portfolio" class="nav-link">実績</a></li>
+                <li><a href="#experience" class="nav-link">経歴</a></li>
+                <li><a href="#contact" class="nav-link">お問い合わせ</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">プロフィール</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>松﨑 智史(Satoshi Matsuzaki)</h3>
+                    <p>東京都を拠点としているフリーランスエンジニア</p>
+                    <p>AIアプリケーション開発、クラウドアーキテクチャ設計、データ分析を専門としています。東京理科大学大学院修士課程を修了後、NTTテクノクロス、メルカリ、Groovenauts等で経験を積み、2024年よりフリーランスとして活動を開始しました。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">専門領域</h2>
+            <div class="service-grid">
+                <div class="service-card">
+                    <h3>AIアプリケーション開発</h3>
+                    <p>AIを用いたアプリケーションの設計・開発・運用をトータルサポート。チャットボット、画像生成、モーション生成など幅広い領域に対応。</p>
+                </div>
+                <div class="service-card">
+                    <h3>クラウドアーキテクチャ設計</h3>
+                    <p>AWS・GCP上でのスケーラブルなアーキテクチャ設計と実装。マイクロサービス、サーバーレス構成にも対応。</p>
+                </div>
+                <div class="service-card">
+                    <h3>データ分析・企画提案</h3>
+                    <p>データ分析結果に基づく戦略的な企画提案。レコメンドエンジン、不正検出、スコアリングモデルの開発。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">技術スキル</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>言語（経験年数順）</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">TypeScript</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">PHP</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>クラウド・インフラ</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">GCP</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>開発・運用ツール</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Agile (Scrum, Kanban)</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">GitHub</span>
+                        <span class="skill-tag">Slack</span>
+                        <span class="skill-tag">DataDog</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>その他・資格</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">量子コンピュータ</span>
+                        <span class="skill-tag">情報処理安全確保支援士</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">現在の案件・実績</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-content">
+                        <h3>AIチャットアプリ BangSter</h3>
+                        <p class="company">AnotherBall</p>
+                        <p>AIを用いた応答生成や画像生成機能の設計および開発を担当。最新のAI技術を活用したコミュニケーションプラットフォームの構築。</p>
+                        <div class="portfolio-tech">
+                            <span>Python</span>
+                            <span>AI/ML</span>
+                            <span>画像生成AI</span>
+                        </div>
+                        <a href="https://x.com/BangsterJp" target="_blank" class="portfolio-link">詳細を見る →</a>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-content">
+                        <h3>AIレコメンドプラットフォーム</h3>
+                        <p class="company">GrowthVerse</p>
+                        <p>Snowflake Marketplace向けのAIレコメンドプラットフォームの開発。大規模データの処理と機械学習モデルの実装。</p>
+                        <div class="portfolio-tech">
+                            <span>Snowflake</span>
+                            <span>Python</span>
+                            <span>レコメンドシステム</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-content">
+                        <h3>配信プラットフォーム AniLive</h3>
+                        <p class="company">AnotherBall (サービス終了済)</p>
+                        <p>北米向け配信プラットフォームでAIによるキャラクターモーションの自動生成機能を開発。AI teamのプロジェクトマネジメント業務も担当。</p>
+                        <div class="portfolio-tech">
+                            <span>AI/ML</span>
+                            <span>モーション生成</span>
+                            <span>プロジェクト管理</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">経歴</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2024年〜現在</div>
+                    <div class="timeline-content">
+                        <h3>フリーランスエンジニア</h3>
+                        <p>独立してAIアプリケーション開発を中心に活動。スマホアプリ『BangSter』やSnowflake向けプラットフォーム開発に従事。</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2021年〜2024年</div>
+                    <div class="timeline-content">
+                        <h3>株式会社Groovenauts</h3>
+                        <p>量子アニーリングマシンを用いた数理最適化モデルの開発。シフト最適化や生産工程の最適化問題に取り組む。</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2019年〜2021年</div>
+                    <div class="timeline-content">
+                        <h3>株式会社メルカリ</h3>
+                        <p>メルペイあと払いサービスのための信用スコアモデルの開発や不正ユーザの検出アルゴリズムの開発。</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2015年〜2019年</div>
+                    <div class="timeline-content">
+                        <h3>NTTテクノクロス</h3>
+                        <p>ECサイトのバックエンドインフラ開発・レコメンドエンジンの開発。NTT研究所と共同でマルウェア検出のプロトタイプ実装。</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2015年</div>
+                    <div class="timeline-content">
+                        <h3>東京理科大学大学院 修士課程修了</h3>
+                        <p>理工学部 情報科学科にて修士号取得。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">お問い合わせ</h2>
+            <div class="contact-content-simple">
+                <p class="contact-description">プロジェクトのご相談、お見積もりなど、お気軽にお問い合わせください。</p>
+                <div class="social-contact">
+                    <a href="https://www.linkedin.com/in/satoshi-matsuzaki-6a0346173/" target="_blank" class="social-logo-btn">
+                        <img src="imgs/logo_linkedin.png" alt="LinkedIn" class="social-logo">
+                    </a>
+                    <a href="https://www.facebook.com/satoshi.mtzk" target="_blank" class="social-logo-btn">
+                        <img src="imgs/logo_facebook.png" alt="Facebook" class="social-logo">
+                    </a>
+                    <a href="https://www.wantedly.com/id/satoshi_matsuzaki_g" target="_blank" class="social-logo-btn">
+                        <img src="imgs/logo_wantedly.svg" alt="Wantedly" class="social-logo">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Satoshi Matsuzaki. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
